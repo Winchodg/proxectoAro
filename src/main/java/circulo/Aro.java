@@ -25,9 +25,6 @@ public class Aro {
 
 
 
-    public double obterRadio() {
-        return getRadio();
-    }
 
     public double obterDiametro() {
         return getRadio() * 2;
@@ -89,7 +86,7 @@ public class Aro {
     /**
      * @param radio the radio to set
      */
-    public void setRadio(double radio) {
-        this.radio = radio;
+    public void setRadio(double valorRadio) {
+        radio=(valorRadio < MINIMO ? MINIMO : valorRadio);
     }
 }
