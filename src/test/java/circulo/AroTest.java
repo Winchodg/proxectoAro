@@ -35,7 +35,7 @@ public class AroTest {
     }
 
     /**
-     * Test do método getCoordenadaX da clase Aro.
+     * Test do método getCoordenadaX da clase Aro
      */
     @Test
     public void testGetCoordenadaX() {

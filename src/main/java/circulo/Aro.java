@@ -1,7 +1,7 @@
 package circulo;
 
 /**
- * Probas de refactorización en NetBeans coa clase Aro
+ * Probas de refactorización en NetBeans coa clase Aro.
  *
  * @author Wences
  */
