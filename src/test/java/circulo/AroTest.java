@@ -1,6 +1,6 @@
 /**
- * Probas para a clase Circulo
- * @author profesor
+ * Probas para a clase Aro
+ * @author Wences
  */
 package circulo;
 
@@ -13,15 +13,18 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author profesor
+ * @author Wences
  */
 public class AroTest {
     
+    /**
+     * Construtor sen parámetros.
+     */
     public AroTest() {
     }
     
     /**
-     * Test of setCoordenadaX method, of class Aro.
+     * Test do método setCoordenadaX da clase Aro.
      */
     @Test
     public void testSetCoordenadaX() {
@@ -32,7 +35,7 @@ public class AroTest {
     }
 
     /**
-     * Test of getCoordenadaX method, of class Aro.
+     * Test do método getCoordenadaX da clase Aro.
      */
     @Test
     public void testGetCoordenadaX() {
@@ -44,7 +47,7 @@ public class AroTest {
     }
 
     /**
-     * Test of setCoordenadaY method, of class Aro.
+     * Test do método setCoordenadaY da clase Aro.
      */
     @Test
     public void testSetCoordenadaY() {
@@ -55,7 +58,7 @@ public class AroTest {
     }
 
     /**
-     * Test of getCoordenadaY method, of class Aro.
+     * Test do método getCoordenadaX da clase Aro.
      */
     @Test
     public void testGetCoordenadaY() {
@@ -67,7 +70,7 @@ public class AroTest {
     }
 
     /**
-     * Test of setRadio method, of class Aro.
+     * Test do método setRadio da clase Aro.
      */
     @Test
     public void testSetRadio() {
@@ -79,7 +82,7 @@ public class AroTest {
     }
 
     /**
-     * Test of getRadio method, of class Aro.
+     * Test do método getRadio da clase Aro.
      */
     @Test
     public void testGetRadio() {
@@ -98,7 +101,7 @@ public class AroTest {
     }
 
     /**
-     * Test of obterDiametro method, of class Aro.
+     * Test do método obterDiametro da clase Aro.
      */
     @Test
     public void testObterDiametro() {
@@ -109,7 +112,7 @@ public class AroTest {
     }
 
     /**
-     * Test of obterCircunferencia method, of class Aro.
+     * Test do método obterCircunferencia da clase Aro.
      */
     @Test
     public void testObterCircunferencia() {
@@ -121,7 +124,7 @@ public class AroTest {
     }
 
     /**
-     * Test of obterSuperficie method, of class Aro.
+     * Test do método obterSupoerficie da clase Aro.
      */
     @Test
     public void testObterSuperficie() {
@@ -133,7 +136,7 @@ public class AroTest {
     }
 
     /**
-     * Test of trasladarCentro method, of class Aro.
+     * Test do método trasladarCentro da clase Aro.
      */
     @Test
     public void testTrasladarCentro() {
